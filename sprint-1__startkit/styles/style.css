@@ -21,7 +21,7 @@
 }
 .logo {
   background: url("../images/logo.svg") no-repeat center;
-  background-size:contain ;
+  background-size: contain;
 }
 .logo_place_header {
   top: 30px;
@@ -72,13 +72,6 @@
   position: absolute;
   z-index: 0;
 }
-/* и элемента с модификатором вида ключ-значение */
-/* .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
 .description {
   margin-bottom: 100px;
   margin-top: 100px;
@@ -227,6 +220,7 @@ font-style: normal;
   position: relative;
   overflow: hidden;
 }
+/* выравниавание по брифу, на компе иное, наставники тоже не видят ошибок */
  .kaufman__triangle {
   width: 877px;
   height: 877px;
