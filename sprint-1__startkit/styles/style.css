@@ -111,7 +111,6 @@ font-style: normal;
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
-  /* margin-bottom: 30px; */
   margin-top: 0;
   font-style: normal;
 }
@@ -125,7 +124,6 @@ font-style: normal;
 }
 .section-title {
   width: 60%;
-  margin: 0;
   margin: 0 auto 20px;
   text-align: center;
   line-height: 1.15;
@@ -145,21 +143,23 @@ font-style: normal;
 .table {
   width: 1100px;
   display: flex;
+  margin: 0 auto;
+  padding: 0;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
 }
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  margin-right: 0;
   list-style: none;
 }
 .table__heading {
   line-height: 1.15px;
   font-size: 24px;
   font-weight: bold;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 .table__text {
   margin: 20px 0 0;
@@ -250,6 +250,7 @@ font-style: normal;
   color: white;
   width: 200px;
   margin: 80px 0;
+  padding-left: 0;
   z-index: 1;
 }
 .table__heading_theme_dark {
