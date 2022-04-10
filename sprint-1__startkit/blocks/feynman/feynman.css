@@ -1,4 +1,7 @@
 .feynman {
+    background-image: url(../../images/feinman.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
     display: flex;
     align-items: center;
     flex-direction: column;
